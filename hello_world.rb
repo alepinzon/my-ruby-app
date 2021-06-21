@@ -1,1 +1,1 @@
-puts "Hello World Lambda serverless!"
+puts "Hello World serverless!"
