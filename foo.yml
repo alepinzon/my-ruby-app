@@ -1,0 +1,18 @@
+version: 2.1
+
+foo:
+  bar:
+    docker:
+      - image: circleci/foo:123
+    steps:
+      - checkout
+      - run: echo "this is the build job"
+  test:
+    docker:
+      - image: circleci/bar:123
+        auth:
+          username: mydockerhub-user
+          password: pass  # context / project UI env-var reference
+    steps:
+      - checkout
+      - run: echo "this is the test job"
