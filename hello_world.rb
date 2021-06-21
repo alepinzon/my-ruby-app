@@ -1,1 +1,1 @@
-puts "Hello World Foo Bar!"
+puts "Hello World!"
