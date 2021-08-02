@@ -1,1 +1,1 @@
-puts "Hello World Lambda!"
+puts "Hello World Lambda foo bar!"
