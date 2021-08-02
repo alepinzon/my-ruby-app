@@ -1,1 +1,1 @@
-puts "Hello World foo"
+puts "Hello World test"
